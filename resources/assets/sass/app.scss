@@ -1,0 +1,84 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// Variables
+@import "variables";
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #eeeeee;
+  padding: 60px;
+  min-height: 100%;
+}
+
+.books {
+  width: 660px;
+  margin: 0 auto;
+
+  .table {
+    width: 100%;
+
+    .sorting {
+      background-image: url('/images/sort_both.png');
+      background-repeat: no-repeat;
+      background-position: center right;
+    }
+    .sorting_asc {
+      background-image: url('/images/sort_asc.png');
+      background-repeat: no-repeat;
+      background-position: center right;
+    }
+    .sorting_desc {
+      background-image: url('/images/sort_desc.png');
+      background-repeat: no-repeat;
+      background-position: center right;
+    }
+  }
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.pagination {
+  display: table;
+  margin: 0 auto;
+  .page-stats {
+    align-items: center;
+    margin-right: 5px;
+  }
+  i {
+    color: #3273dc !important;
+  }
+
+  h3 {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  div {
+    margin-top: 10px;
+  }
+
+  small {
+    font-size: 14px;
+  }
+}
+
+td a {
+  width: 100%;
+  display: block;
+  color: inherit;
+  text-decoration: inherit;
+}
+
